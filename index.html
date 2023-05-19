@@ -21,7 +21,6 @@
                 <div class="logo">
                     <i class="fa-sharp fa-solid fa-j"></i>
                 </div>
-
                 <nav>
                     <div class="hamb">
                         <span></span>
@@ -31,9 +30,9 @@
 
                     <ul class="nav-list">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="About.html">About Me</a></li>
+                        <!-- <li><a href="About.html">About Me</a></li> -->
                         <li><a href="projects.html">Projects i've done</a></li>
-                        <li class="btn"><a href="#">Contact Me</a></li>
+                        <li class="btn"><a href="About.html">About Me</a></li>
                     </ul>
                 </nav>
             </header>
@@ -44,13 +43,29 @@
                     <h1>I am <span class="input"></span></h1>
                     <p>I have decided to take on the challenge to make my portfolio into a website to learn Java, HTML, and CSS.</p>
                     <div class="social">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
                         <a href="https://www.instagram.com/_jonathan.contreras/"><i class="fa-brands fa-instagram"></i></a>
                         <a href="https://github.com/JonathanSContreras"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://www.linkedin.com/in/jonathancontreras0103/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <button type="button">More About Me</button>
+                    <!-- <button type="button">More About Me</button> -->
+                    <!-- <button onclick="window.location.href = 'contact_me.html';">Contact Me</button> -->
+                    <h2>Contact Form</h2>
+                    <form action="https://formspree.io/f/mbjebvzw" method="POST">
+                        <input type="text" name="Name" placeholder="Full Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <select name="Continent">
+                            <option>North America</option>
+                            <option>South America</option>
+                            <option>Europe</option>
+                            <option>Asia</option>
+                            <option>Africa</option>
+                            <option>Australia</option>
+                        </select>
+                        <textarea name="Message" placeholder="Message" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
                 </div>
 
                 <div class="bottom">

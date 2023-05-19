@@ -73,7 +73,7 @@ nav .nav-list li{
 }
 nav .nav-list li a{
     display: inline-block;
-    color: #eee;
+    color: #eeeeee;
     margin-left: 55px;
     font-size: 15px;
     font-weight: 600;
@@ -119,14 +119,44 @@ span {
     font-weight: 400;
     font-size: 17px;
 }
+/* contact form text */
+.container .hero-text h2{
+    color: #2b2d2f;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* contact form input column */
+.container .hero-text form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    gap: 1rem;
+}
+
+/* the form text input options */
+.container .hero-text form input{
+    background-color: #f5f5ed;
+}
+/* the form text input options */
+.container .hero-text form select{
+    background-color: #f5f5ed;
+}
+/* the form text input options */
+.container .hero-text form textarea{
+    background-color: #f5f5ed;
+}
+
+
+/* "I have decided..." */
 .container .hero-text p{
     width: 440px;
     max-width: 100%;
-    color: #2b2d2f;
+    color: #767779;
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 30px;
 }
+/* social media icons */
 .social a{
     width: 40px;
     height: 40px;
