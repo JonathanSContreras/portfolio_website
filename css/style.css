@@ -1,4 +1,5 @@
 *{
+    /* outline: red dashed 1px; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -156,8 +157,11 @@ span {
     line-height: 1.5;
     margin-bottom: 30px;
 }
+.social{
+    align-items: end;
+}
 /* social media icons */
-.social a{
+.social a, .open-button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -176,6 +180,44 @@ span {
     background: #9ca1a4;
     transition: .4s;
 }
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    width: 200px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    /* border: 3px solid #f1f1f1; */
+    z-index: 9;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    
+  }
 .container .hero-text button{
     color: #eee;
     background:#2b2d2f;
