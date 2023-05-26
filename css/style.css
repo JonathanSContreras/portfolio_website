@@ -1,5 +1,5 @@
 *{
-    /* outline: red dashed 1px; */
+    outline: blue dashed 1px;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -193,6 +193,13 @@ span {
     /* border: 3px solid #f1f1f1; */
     z-index: 9;
     position: relative;
+    padding: 0px 130px;
+  }
+  .submit, .cancel{
+    width: 120px;
+    height: 5px;
+    margin: a3uto;
+    padding: 0px;
   }
   
   /* Add styles to the form container */
@@ -209,15 +216,14 @@ span {
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
-    
   }
   
   /* When the inputs get focus, do something */
   .form-container input[type=text]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
-    
   }
+  
 .container .hero-text button{
     color: #eee;
     background:#2b2d2f;
