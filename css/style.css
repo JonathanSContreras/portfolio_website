@@ -152,7 +152,8 @@ span {
 .container .hero-text p{
     width: 440px;
     max-width: 100%;
-    color: #767779;
+    color: #000000;
+    /* text-shadow: #fffefe 2px 2px; */
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 30px;
