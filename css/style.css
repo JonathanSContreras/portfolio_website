@@ -1,5 +1,5 @@
 *{
-    outline: blue dashed 1px;
+    /* outline: blue dashed 1px; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -197,8 +197,8 @@ span {
   }
   .submit, .cancel{
     width: 120px;
-    height: 5px;
-    margin: a3uto;
+    height: 35px;
+    margin: auto;
     padding: 0px;
   }
   
